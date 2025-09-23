@@ -6,7 +6,7 @@ const list = document.querySelector('#list');
 const stats = document.querySelector('#stats');
 
 addBtn.addEventListener('click', addItem);
-input.addEventListener('keydown', (e) => { if (e.key === 'Enter') addItem(); });
+input.addEventListener('keydown', (e) => { if (e.key === 'Enter') addItem(); }); // from ChatGPT
 
 function addItem() {
   const text = input.value.trim();
@@ -38,7 +38,7 @@ function addItem() {
 list.addEventListener('click', (e) => {
   const el = e.target;
   if (el.classList.contains('complete')) {
-    el.parentElement.classList.toggle('completed');
+    el.parentElement.classList.toggle('completed');   // from ChatGPT
     updateStats();
   }
   if (el.classList.contains('delete')) {
