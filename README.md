@@ -17,7 +17,7 @@ A lightweight web app for adding, tracking, and managing daily tasks.
 
 ## Tech Stack  
 - HTML / CSS / JavaScript  
-- Netlify (Deployment)  
+- Vercel (Deployment)  
 
 ---
 
